@@ -1,0 +1,31 @@
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title , .subtitle{
+    color: white;
+    text-align: center;
+}    
+
+.result , .counter{
+    color: white;
+    text-align: center;
+}
+
